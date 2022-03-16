@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&family=Slabo+27px&display=swap');
+
+.contan-decs{
+    margin-top: 15% !important;
+    
+}
+
+/* footer */
+.underline {
+    text-align: center;
+    }
+    
+  .line{
+      background-color: rgba(15, 28, 143, 1);
+      height: 2px;
+      margin-bottom: 30px;
+    }
+
+.copyright{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
