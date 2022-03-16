@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Responsive Owl-Carousel Slider | CodingNepal</title>
+      <link rel="stylesheet" href="Asset/style/news.css">
+      <link rel="stylesheet" href="Asset/style/header.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+   </head>
+   <body>
+      <nav >
+         <div class="logo">
+             <img src="Asset/img/Logo 1.png" alt="">
+         </div>
+         <div class="list-item">
+             <ul>
+                 <li> <a href="">HOME</a> </li>
+                 <li> <a href="">ABOUT US </a> </li>
+                 <li> <a href="">NEWS</a> </li>
+                 <li> <a href="">PROJECTS</a> </li>
+                 <li> <a href="">SERVICE</a> </li>
+                 <li> <a href="">CONTACT</a> </li>
+ 
+                 <li><input class="search" type="text" placeholder="Search.."></li>
+             </ul>
+         </div>
+     </nav>
+     
+   
+      <div class="wrapper">
+          <div class="slide-1">
+         <div class="carousel owl-carousel">
+            <div class="card card-1">
+               <img src="Asset/img/image 1.png" alt="">
+            </div>
+            <div class="card card-1">
+                <img src="Asset/img/image 1.png" alt="">
+             </div>
+             <div class="card card-1">
+                <img src="Asset/img/image 1.png" alt="">
+             </div>
+             <div class="card card-1">
+                <img src="Asset/img/image 1.png" alt="">
+             </div>
+
+         </div>
+
+         <p>PT. Ruang Cipta Teknologi memenuhi undangan diskusi bersama Mas Menteri Pendidikan, Kebudayaan, Riset dan Teknologi (Mendikbudristek) sebagai apresiasi mitra penerima program studi independent dan magang bersertifikat (MSIB) Kampus Merdeka.</p>
+
+         <div class="slide-2" style="margin-top: 166px;">
+            <div class="carousel owl-carousel">
+               <div class="card card-1">
+                  <img src="Asset/img/image 1.png" alt="">
+               </div>
+               <div class="card card-1">
+                   <img src="Asset/img/image 1.png" alt="">
+                </div>
+                <div class="card card-1">
+                   <img src="Asset/img/image 1.png" alt="">
+                </div>
+                <div class="card card-1">
+                   <img src="Asset/img/image 1.png" alt="">
+                </div>
+   
+            </div>
+        </div>
+
+         <p>PT. Ruang Cipta Teknologi memenuhi undangan diskusi bersama Mas Menteri Pendidikan, Kebudayaan, Riset dan Teknologi (Mendikbudristek) sebagai apresiasi mitra penerima program studi independent dan magang bersertifikat (MSIB) Kampus Merdeka.</p>
+      </div>
+
+      <div class ="underline">
+         <div class="line"></div>
+         <div class="copuright">
+           © Copyright 2022 pt.Ruang Cipta Teknologi All rights Reserved.
+         </div>
+       </div>
+
+
+
+      
+      <script>
+         $(".carousel").owlCarousel({
+           margin: 20,
+           loop: true,
+           autoplay: true,
+           autoplayTimeout: 2000,
+           autoplayHoverPause: true,
+           responsive: {
+             0:{
+               items:1,
+               nav: false
+             },
+             600:{
+               items:2,
+               nav: false
+             },
+             1000:{
+               items:3,
+               nav: false
+             }
+           }
+         });
+      </script>
+   </body>
+</html>
