@@ -91,3 +91,10 @@
     font-size: 20px;
   }
 
+
+/* footer */
+
+.copyright{
+  border-color:#0F1C8F !important;
+  text-align: center;
+}

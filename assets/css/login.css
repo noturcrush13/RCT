@@ -5,7 +5,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 .gradient-custom {
-    background-image: url("../img/baground.png");
+  background-color: rgb(148, 185, 240);
 
   }
 
@@ -39,4 +39,9 @@ text-align: center;
   background-color: white;
   height: 2px;
   margin-top: 10px;
+}
+
+.copuright{
+  background-color: rgb(148, 185, 240);
+  color: white;
 }
